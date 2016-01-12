@@ -409,7 +409,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = vagetableSale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = digle.vagetableSale;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Strawman;
 				PRODUCT_NAME = Strawman;
 				PROVISIONING_PROFILE = "";
 			};
@@ -425,7 +425,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = vagetableSale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = digle.vagetableSale;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Strawman;
 				PRODUCT_NAME = Strawman;
 				PROVISIONING_PROFILE = "";
 			};

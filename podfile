@@ -5,5 +5,10 @@ use_frameworks!
 
 target 'vagetableSale' do
 pod 'Parse'
+pod 'FBSDKCoreKit'
+pod 'FBSDKShareKit'
+pod 'FBSDKLoginKit'
+
+
 end
 

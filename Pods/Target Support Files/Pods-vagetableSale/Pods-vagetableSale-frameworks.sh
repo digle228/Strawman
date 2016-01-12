@@ -85,9 +85,15 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-vagetableSale/Bolts.framework"
+  install_framework "Pods-vagetableSale/FBSDKCoreKit.framework"
+  install_framework "Pods-vagetableSale/FBSDKLoginKit.framework"
+  install_framework "Pods-vagetableSale/FBSDKShareKit.framework"
   install_framework "Pods-vagetableSale/Parse.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-vagetableSale/Bolts.framework"
+  install_framework "Pods-vagetableSale/FBSDKCoreKit.framework"
+  install_framework "Pods-vagetableSale/FBSDKLoginKit.framework"
+  install_framework "Pods-vagetableSale/FBSDKShareKit.framework"
   install_framework "Pods-vagetableSale/Parse.framework"
 fi
