@@ -5,9 +5,9 @@
       location = "group:/Users/wusuchen/Desktop/xcode-swift/Strawman/Strawman.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:Strawman.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Strawman.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
