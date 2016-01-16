@@ -21,14 +21,20 @@ class AboutMeNavController: UINavigationController {
         if let accessToken = FBSDKAccessToken.currentAccessToken() {
             let AboutMe = self.storyboard?.instantiateViewControllerWithIdentifier("AboutMeNavController")
             
-            
+            print("\(AboutMe)\(accessToken)")
+
             
         } else {
             let fbLoginPage = self.storyboard?.instantiateViewControllerWithIdentifier("FBLoginViewController")
             
             self.presentViewController(fbLoginPage!, animated: true, completion: nil)
+            
+            print("\(fbLoginPage)")
+
             }
 
+        
+        
     }
     
     override func viewDidLoad() {

@@ -45,7 +45,7 @@
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
-		<false/>
+		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
 			<key>akamaihd.net</key>
@@ -63,6 +63,13 @@
 				<false/>
 			</dict>
 			<key>fbcdn.net</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
+			<key>http://139.162.37.39/</key>
 			<dict>
 				<key>NSIncludesSubdomains</key>
 				<true/>

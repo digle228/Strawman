@@ -26,84 +26,81 @@
 		91BF38A61C469839002D43A9 /* BuyStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF38A51C469839002D43A9 /* BuyStep1ViewController.swift */; };
 		91D4BF251C42939700A04A4E /* CookMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D4BF241C42939700A04A4E /* CookMovieViewController.swift */; };
 		91D4BF271C4299AD00A04A4E /* ForCookNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D4BF261C4299AD00A04A4E /* ForCookNavController.swift */; };
-		91D817391C4A312900A06D06 /* MyOrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D817381C4A312900A06D06 /* MyOrderTableViewController.swift */; };
-		91D8173B1C4A4B7400A06D06 /* MyDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D8173A1C4A4B7400A06D06 /* MyDataViewController.swift */; };
 		91E0AB2A1C46871600D61A5A /* F-BLoginViewController-old.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E0AB291C46871600D61A5A /* F-BLoginViewController-old.swift */; };
 		91E1BF2D1C377CBB00D15B41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E1BF2C1C377CBB00D15B41 /* AppDelegate.swift */; };
 		91E1BF2F1C377CBB00D15B41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E1BF2E1C377CBB00D15B41 /* ViewController.swift */; };
 		91E1BF321C377CBB00D15B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E1BF301C377CBB00D15B41 /* Main.storyboard */; };
 		91E1BF341C377CBB00D15B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E1BF331C377CBB00D15B41 /* Assets.xcassets */; };
 		91E1BF371C377CBB00D15B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E1BF351C377CBB00D15B41 /* LaunchScreen.storyboard */; };
-		CF1545AB372910D967A26A60 /* Pods_vagetableSale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C4C8A5CD4F74564D1CD322 /* Pods_vagetableSale.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		91D8171E1C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
+		91D816FC1C4A297200A06D06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
+			containerPortal = 91D816EF1C4A297100A06D06 /* Pods.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 295F2547842B2A9739A44C1BC5CC99FA;
 			remoteInfo = Alamofire;
 		};
-		91D817201C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
+		91D816FE1C4A297200A06D06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
+			containerPortal = 91D816EF1C4A297100A06D06 /* Pods.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 7CD3AC3A26BC32BB29B95D2F80A759C9;
 			remoteInfo = Bolts;
 		};
-		91D817221C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
+		91D817001C4A297200A06D06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
+			containerPortal = 91D816EF1C4A297100A06D06 /* Pods.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D8E3000BE01D88CFB2874834B778D692;
 			remoteInfo = FBSDKCoreKit;
 		};
-		91D817241C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
+		91D817021C4A297200A06D06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
+			containerPortal = 91D816EF1C4A297100A06D06 /* Pods.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4361D116F287CD6234D9F0138295F327;
 			remoteInfo = FBSDKLoginKit;
 		};
-		91D817261C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
+		91D817041C4A297200A06D06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
+			containerPortal = 91D816EF1C4A297100A06D06 /* Pods.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 47D8F46FFAE3AA0F49F6D252F43841EA;
 			remoteInfo = FBSDKShareKit;
 		};
-		91D817281C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
+		91D817061C4A297200A06D06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
+			containerPortal = 91D816EF1C4A297100A06D06 /* Pods.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A1D10DB0396AAA0CB5B11E1B341A8991;
 			remoteInfo = Parse;
 		};
-		91D8172A1C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
+		91D817081C4A297200A06D06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
+			containerPortal = 91D816EF1C4A297100A06D06 /* Pods.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B4C7A86CD1861B9B22121DCE8B5D8330;
 			remoteInfo = "Pods-vagetableSale";
 		};
-		91D8172C1C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
+		91D8170A1C4A297200A06D06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
+			containerPortal = 91D816EF1C4A297100A06D06 /* Pods.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FDFBBDC482B095AD0BB32843CE76A86B;
 			remoteInfo = SVProgressHUD;
 		};
-		91D8172E1C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
+		91D8170C1C4A297200A06D06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
+			containerPortal = 91D816EF1C4A297100A06D06 /* Pods.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4F8CE17F29698654876E0B23661C7E64;
 			remoteInfo = SwiftyJSON;
 		};
-		91D817301C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
+		91D8170E1C4A297200A06D06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
+			containerPortal = 91D816EF1C4A297100A06D06 /* Pods.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 97471C541F82BCB2122B6ABAC8587613;
 			remoteInfo = YYWebImage;
@@ -111,12 +108,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26A9724A3E6AAB56215AB04E /* Pods-vagetableSale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vagetableSale.release.xcconfig"; path = "Pods/Target Support Files/Pods-vagetableSale/Pods-vagetableSale.release.xcconfig"; sourceTree = "<group>"; };
-		26CE6A52687AB00F16612A16 /* Pods-vagetableSale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vagetableSale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vagetableSale/Pods-vagetableSale.debug.xcconfig"; sourceTree = "<group>"; };
 		91030B411C48C11600DD11E5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		91030B431C48C23200DD11E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		91030B451C48C25000DD11E5 /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
 		91030B471C48F76D00DD11E5 /* DataModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModal.swift; sourceTree = "<group>"; };
+		91030B4C1C4A248500DD11E5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		91087E011C3CF4F900E4D6B4 /* tabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tabBarController.swift; path = ../tabBarController.swift; sourceTree = "<group>"; };
 		91087E471C3D66F000E4D6B4 /* AboutMetableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMetableViewController.swift; path = ../AboutMetableViewController.swift; sourceTree = "<group>"; };
 		91087E491C3DF92200E4D6B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -132,18 +128,15 @@
 		91BF38A51C469839002D43A9 /* BuyStep1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuyStep1ViewController.swift; path = ../BuyStep1ViewController.swift; sourceTree = "<group>"; };
 		91D4BF241C42939700A04A4E /* CookMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CookMovieViewController.swift; path = ../CookMovieViewController.swift; sourceTree = "<group>"; };
 		91D4BF261C4299AD00A04A4E /* ForCookNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForCookNavController.swift; path = ../ForCookNavController.swift; sourceTree = "<group>"; };
-		91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
-		91D817381C4A312900A06D06 /* MyOrderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderTableViewController.swift; sourceTree = "<group>"; };
-		91D8173A1C4A4B7400A06D06 /* MyDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDataViewController.swift; sourceTree = "<group>"; };
+		91D816EF1C4A297100A06D06 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		91D817101C4A2A7100A06D06 /* vagetableSale.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vagetableSale.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E0AB291C46871600D61A5A /* F-BLoginViewController-old.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "F-BLoginViewController-old.swift"; sourceTree = "<group>"; };
-		91E1BF291C377CBB00D15B41 /* Strawman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strawman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E1BF2C1C377CBB00D15B41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91E1BF2E1C377CBB00D15B41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91E1BF311C377CBB00D15B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91E1BF331C377CBB00D15B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E1BF361C377CBB00D15B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91E1BF381C377CBB00D15B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1C4C8A5CD4F74564D1CD322 /* Pods_vagetableSale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vagetableSale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				91030B441C48C23200DD11E5 /* MapKit.framework in Frameworks */,
-				CF1545AB372910D967A26A60 /* Pods_vagetableSale.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,18 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				91030B431C48C23200DD11E5 /* MapKit.framework */,
-				B1C4C8A5CD4F74564D1CD322 /* Pods_vagetableSale.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		55DC0E67D408CB2DFF649D39 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				26CE6A52687AB00F16612A16 /* Pods-vagetableSale.debug.xcconfig */,
-				26A9724A3E6AAB56215AB04E /* Pods-vagetableSale.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		91087E9B1C3F8A8100E4D6B4 /* ViewController */ = {
@@ -183,6 +165,8 @@
 				9148C3671C47876900C994B1 /* FbLoginViewController.swift */,
 				91BF38A51C469839002D43A9 /* BuyStep1ViewController.swift */,
 				91B574281C3FF23C0074D8B9 /* AboutMeNavController.swift */,
+				91087E9C1C3F8AC400E4D6B4 /* BackGround.swift */,
+				91E1BF2E1C377CBB00D15B41 /* ViewController.swift */,
 				91030B411C48C11600DD11E5 /* MapViewController.swift */,
 				91087E011C3CF4F900E4D6B4 /* tabBarController.swift */,
 				91E0AB291C46871600D61A5A /* F-BLoginViewController-old.swift */,
@@ -193,46 +177,42 @@
 				9116441D1C422A1B00F9777F /* CookTableViewCell.xib */,
 				91D4BF261C4299AD00A04A4E /* ForCookNavController.swift */,
 				91D4BF241C42939700A04A4E /* CookMovieViewController.swift */,
-				91D817381C4A312900A06D06 /* MyOrderTableViewController.swift */,
-				91D8173A1C4A4B7400A06D06 /* MyDataViewController.swift */,
-				911644201C42415C00F9777F /* Data */,
+				911644201C42415C00F9777F /* Modal */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
 		};
-		911644201C42415C00F9777F /* Data */ = {
+		911644201C42415C00F9777F /* Modal */ = {
 			isa = PBXGroup;
 			children = (
 				911644211C4241B000F9777F /* vagetable.swift */,
 				911644251C4249F400F9777F /* vageList.swift */,
 				91030B471C48F76D00DD11E5 /* DataModal.swift */,
 			);
-			name = Data;
+			name = Modal;
 			sourceTree = "<group>";
 		};
 		91ABF4911C4268E20002F892 /* NoUse */ = {
 			isa = PBXGroup;
 			children = (
-				91E1BF2E1C377CBB00D15B41 /* ViewController.swift */,
-				91087E9C1C3F8AC400E4D6B4 /* BackGround.swift */,
 				911644271C4264FC00F9777F /* CustomCell.swift */,
 			);
 			name = NoUse;
 			sourceTree = "<group>";
 		};
-		91D817121C4A2B7E00A06D06 /* Products */ = {
+		91D816F01C4A297100A06D06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91D8171F1C4A2B7F00A06D06 /* Alamofire.framework */,
-				91D817211C4A2B7F00A06D06 /* Bolts.framework */,
-				91D817231C4A2B7F00A06D06 /* FBSDKCoreKit.framework */,
-				91D817251C4A2B7F00A06D06 /* FBSDKLoginKit.framework */,
-				91D817271C4A2B7F00A06D06 /* FBSDKShareKit.framework */,
-				91D817291C4A2B7F00A06D06 /* Parse.framework */,
-				91D8172B1C4A2B7F00A06D06 /* Pods_vagetableSale.framework */,
-				91D8172D1C4A2B7F00A06D06 /* SVProgressHUD.framework */,
-				91D8172F1C4A2B7F00A06D06 /* SwiftyJSON.framework */,
-				91D817311C4A2B7F00A06D06 /* YYWebImage.framework */,
+				91D816FD1C4A297200A06D06 /* Alamofire.framework */,
+				91D816FF1C4A297200A06D06 /* Bolts.framework */,
+				91D817011C4A297200A06D06 /* FBSDKCoreKit.framework */,
+				91D817031C4A297200A06D06 /* FBSDKLoginKit.framework */,
+				91D817051C4A297200A06D06 /* FBSDKShareKit.framework */,
+				91D817071C4A297200A06D06 /* Parse.framework */,
+				91D817091C4A297200A06D06 /* Pods_vagetableSale.framework */,
+				91D8170B1C4A297200A06D06 /* SVProgressHUD.framework */,
+				91D8170D1C4A297200A06D06 /* SwiftyJSON.framework */,
+				91D8170F1C4A297200A06D06 /* YYWebImage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,20 +220,11 @@
 		91E1BF201C377CBB00D15B41 = {
 			isa = PBXGroup;
 			children = (
-				91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */,
+				91D816EF1C4A297100A06D06 /* Pods.xcodeproj */,
 				91E1BF2B1C377CBB00D15B41 /* Strawman */,
-				91E1BF2A1C377CBB00D15B41 /* Products */,
-				55DC0E67D408CB2DFF649D39 /* Pods */,
 				36AB6A5D66BAF2C9B31D6581 /* Frameworks */,
+				91D817101C4A2A7100A06D06 /* vagetableSale.temp_caseinsensitive_rename.app */,
 			);
-			sourceTree = "<group>";
-		};
-		91E1BF2A1C377CBB00D15B41 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				91E1BF291C377CBB00D15B41 /* Strawman.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		91E1BF2B1C377CBB00D15B41 /* Strawman */ = {
@@ -261,6 +232,7 @@
 			children = (
 				91E1BF301C377CBB00D15B41 /* Main.storyboard */,
 				91E1BF2C1C377CBB00D15B41 /* AppDelegate.swift */,
+				91030B4C1C4A248500DD11E5 /* Header.h */,
 				91087E9B1C3F8A8100E4D6B4 /* ViewController */,
 				91ABF4911C4268E20002F892 /* NoUse */,
 				91E1BF331C377CBB00D15B41 /* Assets.xcassets */,
@@ -292,7 +264,7 @@
 			);
 			name = vagetableSale;
 			productName = vagetableSale;
-			productReference = 91E1BF291C377CBB00D15B41 /* Strawman.app */;
+			productReference = 91D817101C4A2A7100A06D06 /* vagetableSale.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +288,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 91E1BF241C377CBB00D15B41 /* Build configuration list for PBXProject "Strawman" */;
+			buildConfigurationList = 91E1BF241C377CBB00D15B41 /* Build configuration list for PBXProject "vagetableSale" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -325,12 +297,12 @@
 				Base,
 			);
 			mainGroup = 91E1BF201C377CBB00D15B41;
-			productRefGroup = 91E1BF2A1C377CBB00D15B41 /* Products */;
+			productRefGroup = 91E1BF201C377CBB00D15B41;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 91D817121C4A2B7E00A06D06 /* Products */;
-					ProjectRef = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
+					ProductGroup = 91D816F01C4A297100A06D06 /* Products */;
+					ProjectRef = 91D816EF1C4A297100A06D06 /* Pods.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -341,74 +313,74 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		91D8171F1C4A2B7F00A06D06 /* Alamofire.framework */ = {
+		91D816FD1C4A297200A06D06 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
-			remoteRef = 91D8171E1C4A2B7F00A06D06 /* PBXContainerItemProxy */;
+			remoteRef = 91D816FC1C4A297200A06D06 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		91D817211C4A2B7F00A06D06 /* Bolts.framework */ = {
+		91D816FF1C4A297200A06D06 /* Bolts.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Bolts.framework;
-			remoteRef = 91D817201C4A2B7F00A06D06 /* PBXContainerItemProxy */;
+			remoteRef = 91D816FE1C4A297200A06D06 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		91D817231C4A2B7F00A06D06 /* FBSDKCoreKit.framework */ = {
+		91D817011C4A297200A06D06 /* FBSDKCoreKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = FBSDKCoreKit.framework;
-			remoteRef = 91D817221C4A2B7F00A06D06 /* PBXContainerItemProxy */;
+			remoteRef = 91D817001C4A297200A06D06 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		91D817251C4A2B7F00A06D06 /* FBSDKLoginKit.framework */ = {
+		91D817031C4A297200A06D06 /* FBSDKLoginKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = FBSDKLoginKit.framework;
-			remoteRef = 91D817241C4A2B7F00A06D06 /* PBXContainerItemProxy */;
+			remoteRef = 91D817021C4A297200A06D06 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		91D817271C4A2B7F00A06D06 /* FBSDKShareKit.framework */ = {
+		91D817051C4A297200A06D06 /* FBSDKShareKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = FBSDKShareKit.framework;
-			remoteRef = 91D817261C4A2B7F00A06D06 /* PBXContainerItemProxy */;
+			remoteRef = 91D817041C4A297200A06D06 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		91D817291C4A2B7F00A06D06 /* Parse.framework */ = {
+		91D817071C4A297200A06D06 /* Parse.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Parse.framework;
-			remoteRef = 91D817281C4A2B7F00A06D06 /* PBXContainerItemProxy */;
+			remoteRef = 91D817061C4A297200A06D06 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		91D8172B1C4A2B7F00A06D06 /* Pods_vagetableSale.framework */ = {
+		91D817091C4A297200A06D06 /* Pods_vagetableSale.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Pods_vagetableSale.framework;
-			remoteRef = 91D8172A1C4A2B7F00A06D06 /* PBXContainerItemProxy */;
+			remoteRef = 91D817081C4A297200A06D06 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		91D8172D1C4A2B7F00A06D06 /* SVProgressHUD.framework */ = {
+		91D8170B1C4A297200A06D06 /* SVProgressHUD.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SVProgressHUD.framework;
-			remoteRef = 91D8172C1C4A2B7F00A06D06 /* PBXContainerItemProxy */;
+			remoteRef = 91D8170A1C4A297200A06D06 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		91D8172F1C4A2B7F00A06D06 /* SwiftyJSON.framework */ = {
+		91D8170D1C4A297200A06D06 /* SwiftyJSON.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SwiftyJSON.framework;
-			remoteRef = 91D8172E1C4A2B7F00A06D06 /* PBXContainerItemProxy */;
+			remoteRef = 91D8170C1C4A297200A06D06 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		91D817311C4A2B7F00A06D06 /* YYWebImage.framework */ = {
+		91D8170F1C4A297200A06D06 /* YYWebImage.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = YYWebImage.framework;
-			remoteRef = 91D817301C4A2B7F00A06D06 /* PBXContainerItemProxy */;
+			remoteRef = 91D8170E1C4A297200A06D06 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -485,7 +457,6 @@
 				9116441E1C422A1B00F9777F /* CookTableViewCell.swift in Sources */,
 				911644281C4264FC00F9777F /* CustomCell.swift in Sources */,
 				9148C3681C47876900C994B1 /* FbLoginViewController.swift in Sources */,
-				91D817391C4A312900A06D06 /* MyOrderTableViewController.swift in Sources */,
 				91BF38A61C469839002D43A9 /* BuyStep1ViewController.swift in Sources */,
 				91D4BF271C4299AD00A04A4E /* ForCookNavController.swift in Sources */,
 				91D4BF251C42939700A04A4E /* CookMovieViewController.swift in Sources */,
@@ -498,7 +469,6 @@
 				91030B421C48C11600DD11E5 /* MapViewController.swift in Sources */,
 				91087E021C3CF4F900E4D6B4 /* tabBarController.swift in Sources */,
 				91030B461C48C25000DD11E5 /* MyAnnotation.swift in Sources */,
-				91D8173B1C4A4B7400A06D06 /* MyDataViewController.swift in Sources */,
 				91087E481C3D66F000E4D6B4 /* AboutMetableViewController.swift in Sources */,
 				91E1BF2D1C377CBB00D15B41 /* AppDelegate.swift in Sources */,
 				91E0AB2A1C46871600D61A5A /* F-BLoginViewController-old.swift in Sources */,
@@ -610,7 +580,6 @@
 		};
 		91E1BF3C1C377CBB00D15B41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26CE6A52687AB00F16612A16 /* Pods-vagetableSale.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -619,14 +588,14 @@
 				INFOPLIST_FILE = vagetableSale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Strawman;
-				PRODUCT_NAME = Strawman;
+				PRODUCT_NAME = vagetableSale.temp_caseinsensitive_rename;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "#import <\"YYWebImage/YYWebImage.h\">\n#import <\"SVProgressHUD/SVProgressHUD.h\">\n";
 			};
 			name = Debug;
 		};
 		91E1BF3D1C377CBB00D15B41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26A9724A3E6AAB56215AB04E /* Pods-vagetableSale.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -635,15 +604,16 @@
 				INFOPLIST_FILE = vagetableSale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Strawman;
-				PRODUCT_NAME = Strawman;
+				PRODUCT_NAME = vagetableSale.temp_caseinsensitive_rename;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "#import <\"YYWebImage/YYWebImage.h\">\n#import <\"SVProgressHUD/SVProgressHUD.h\">\n";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91E1BF241C377CBB00D15B41 /* Build configuration list for PBXProject "Strawman" */ = {
+		91E1BF241C377CBB00D15B41 /* Build configuration list for PBXProject "vagetableSale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91E1BF391C377CBB00D15B41 /* Debug */,

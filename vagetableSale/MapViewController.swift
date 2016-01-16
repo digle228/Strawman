@@ -64,7 +64,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.delegate = self
         self.locationManager.startUpdatingLocation()
-        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "showLocation:", userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: "showLocation:", userInfo: nil, repeats: true)
         
         // Do any additional setup after loading the view.
     }

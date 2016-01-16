@@ -20,7 +20,8 @@ class BuyStep1ViewController: UIViewController, UIPickerViewDataSource, UIPicker
     override func viewWillAppear(animated: Bool) {
         if let accessToken = FBSDKAccessToken.currentAccessToken() {
             let buyVegetable = self.storyboard?.instantiateViewControllerWithIdentifier("BuyStep1ViewController")
-            
+            print("\(buyVegetable)\(accessToken)")
+
             
             
         } else {

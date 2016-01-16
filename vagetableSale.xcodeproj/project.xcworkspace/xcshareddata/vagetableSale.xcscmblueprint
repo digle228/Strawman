@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AF41B72124CB5E758B071CCFDC680A57F5E9F4FB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0B9D1296A0337EF7C28C3F9C1D4696276D5156E7" : 0,
+    "35421D23702F6B437150E85761ADBBD6EB710F00" : 0,
+    "AF41B72124CB5E758B071CCFDC680A57F5E9F4FB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DB6CF178-E957-4CF2-A56D-0C6A5EBD49B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0B9D1296A0337EF7C28C3F9C1D4696276D5156E7" : "",
+    "35421D23702F6B437150E85761ADBBD6EB710F00" : "vagetableSale\/",
+    "AF41B72124CB5E758B071CCFDC680A57F5E9F4FB" : "Strawman\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "vagetableSale",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "vagetableSale.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/digle228\/master.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B9D1296A0337EF7C28C3F9C1D4696276D5156E7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/digle228\/vagetablesale.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "35421D23702F6B437150E85761ADBBD6EB710F00"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/digle228\/Strawman.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AF41B72124CB5E758B071CCFDC680A57F5E9F4FB"
+    }
+  ]
+}
