@@ -11,12 +11,16 @@ import FBSDKLoginKit
 
 
 class FbLoginViewController: UIViewController {
-
-    @IBOutlet weak var FbLoginBu: FBSDKLoginButton!
     
-
-    @IBAction func FbLoginAction(sender: AnyObject) {        
-
+    
+    
+    @IBAction func KeyInEmail(sender: AnyObject) {
+    }
+    
+    @IBAction func KeyInPassword(sender: AnyObject) {
+    }
+    @IBAction func FbLoginAction(sender: AnyObject) {
+        
     }
     
     
@@ -66,61 +70,61 @@ class FbLoginViewController: UIViewController {
             }
         })
     }
-    
+    //判斷FB使用者是否登入
     override func viewWillAppear(animated: Bool) {
-        _ = self.storyboard?.instantiateViewControllerWithIdentifier("BuyStep1ViewController")
-       
-        
+        let buyVegetable = self.storyboard?.instantiateViewControllerWithIdentifier("BuyStep1ViewController")
         if let accessToken = FBSDKAccessToken.currentAccessToken() {
             
-                        self.dismissViewControllerAnimated(true, completion: nil)
-
+            self.dismissViewControllerAnimated(true, completion: nil)
+            print("\(buyVegetable)\(accessToken)")
             //            self.presentViewController(buyVegetable!, animated: true, completion: nil)
             
         } else {
             
             let fbLoginPage = self.storyboard?.instantiateViewControllerWithIdentifier("FBLoginViewController")
-//            self.dismissViewControllerAnimated(true, completion: nil)
             
-            //                self.presentViewController(fbLoginPage!, animated: true, completion: nil)
+            print("\(fbLoginPage)")
+
+            //            self.dismissViewControllerAnimated(true, completion: nil)
+            
             
         }
         
     }
     
-//    override func viewDidDisappear(animated: Bool) {
-//        if let accessToken = FBSDKAccessToken.currentAccessToken() {
-//            let buyVegetable = self.storyboard?.instantiateViewControllerWithIdentifier("BuyStep1ViewController")
-//            self.tabBarController?.presentViewController(buyVegetable!, animated: true, completion: nil)
-//
-//            
-//            
-//        } else {
-//            let fbLoginPage = self.storyboard?.instantiateViewControllerWithIdentifier("FBLoginViewController")
-//            
-//    }
-//    }
+    //    override func viewDidDisappear(animated: Bool) {
+    //        if let accessToken = FBSDKAccessToken.currentAccessToken() {
+    //            let buyVegetable = self.storyboard?.instantiateViewControllerWithIdentifier("BuyStep1ViewController")
+    //            self.tabBarController?.presentViewController(buyVegetable!, animated: true, completion: nil)
+    //
+    //
+    //
+    //        } else {
+    //            let fbLoginPage = self.storyboard?.instantiateViewControllerWithIdentifier("FBLoginViewController")
+    //
+    //    }
+    //    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-           // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }

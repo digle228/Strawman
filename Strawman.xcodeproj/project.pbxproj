@@ -115,7 +115,6 @@
 				91B5742A1C41FF310074D8B9 /* CookOnlieTableViewController.swift */,
 				9116441C1C422A1B00F9777F /* CookTableViewCell.swift */,
 				9116441D1C422A1B00F9777F /* CookTableViewCell.xib */,
-				91E1BF2C1C377CBB00D15B41 /* AppDelegate.swift */,
 				91D4BF261C4299AD00A04A4E /* ForCookNavController.swift */,
 				91D4BF241C42939700A04A4E /* CookMovieViewController.swift */,
 				911644201C42415C00F9777F /* Modal */,
@@ -162,8 +161,9 @@
 		91E1BF2B1C377CBB00D15B41 /* Strawman */ = {
 			isa = PBXGroup;
 			children = (
-				91087E9B1C3F8A8100E4D6B4 /* ViewController */,
 				91E1BF301C377CBB00D15B41 /* Main.storyboard */,
+				91E1BF2C1C377CBB00D15B41 /* AppDelegate.swift */,
+				91087E9B1C3F8A8100E4D6B4 /* ViewController */,
 				91ABF4911C4268E20002F892 /* NoUse */,
 				91E1BF331C377CBB00D15B41 /* Assets.xcassets */,
 				91E1BF351C377CBB00D15B41 /* LaunchScreen.storyboard */,

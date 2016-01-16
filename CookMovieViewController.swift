@@ -35,9 +35,6 @@ class CookMovieViewController: UIViewController, WKNavigationDelegate {
         
         
         
-        
-        
-        
         let webView = WKWebView(frame:self.viewInWeb.frame)
         webView.navigationDelegate = self
         self.view.addSubview(webView)

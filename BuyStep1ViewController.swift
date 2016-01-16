@@ -14,7 +14,8 @@ class BuyStep1ViewController: UIViewController, UIPickerViewDataSource, UIPicker
     
     
     var arr : NSArray = []
-
+    
+    //判斷FB使用者是否登入
     
     override func viewWillAppear(animated: Bool) {
         if let accessToken = FBSDKAccessToken.currentAccessToken() {
@@ -36,7 +37,7 @@ class BuyStep1ViewController: UIViewController, UIPickerViewDataSource, UIPicker
     override func viewDidLoad() {
         super.viewDidLoad()
         arr = ["幸福小倆口(約1-2人份，每週四到六餐)", "全家草幸福(3-4人份，每週四到六餐)"]
-
+        
         // Do any additional setup after loading the view.
     }
     
@@ -45,6 +46,9 @@ class BuyStep1ViewController: UIViewController, UIPickerViewDataSource, UIPicker
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
+    //picker設定
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return 1
     }
