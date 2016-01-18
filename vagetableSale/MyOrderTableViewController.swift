@@ -12,54 +12,62 @@ import SwiftyJSON
 
 class MyOrderTableViewController: UITableViewController {
     
-    var userData = [User]()
     
     
-    
+    @IBOutlet var dataTableView: UITableView!
+
+    var userData = [String]()
 
     
-//    func getDataFromServer(){
-//        let userUrl = "http://139.162.37.39/api/v1/users"
-//        Alamofire.request(.GET, userUrl).responseJSON { response in switch response.result {
-//        case .Success(let data):
-//        let responseJson = JSON(data)
-//        let resultJson = responseJson["result"]
-//        for (_, subJson):(String, JSON) in resultJson {
-//            let id = subJson["id"].stringValue
-//            let name = subJson["name"].stringValue
-//            let address = subJson["address"].stringValue
-//            let mobil_num = subJson["mobil_num"].stringValue
-//            let email = subJson["email"].stringValue
-//            let user = User(id: id,name: name, address: address, mobil_num: mobil_num, email: email)
-//            
-//            self.userData.append(user)
-//            self.tableView.reloadData()
-//            
-//            
-//        }
-//        case .Failure(let error):
-//            print(error)
-//            
-//            
-//            }
-//
-//        }
-//        print("\(userData)")
-//
-//    }
+    func getDataFromServer(){
+        let userUrl = "http://139.162.37.39/api/v1"
+        let apiPath = userUrl + "/users/"
+        
+        
+        Alamofire.request(.GET, apiPath,parameters: nil).responseJSON { response in switch response.result {
+        case .Success(let data):
+            
+            let result = JSON(data)["data"]
+        
+        for (_, subJson):(String, JSON) in result {
+            
+            let id = subJson["id"].stringValue
+            let name = subJson["name"].stringValue
+            let address = subJson["address"].stringValue
+            let mobil_num = subJson["mobil_num"].stringValue
+            let email = subJson["email"].stringValue
+            let user = ([id: id, name: name, address: address, mobil_num: mobil_num, email: email])
+
+//            print(" \(user)")
+
+            self.userData.append(id)
+            self.userData.append(name)
+            self.userData.append(address)
+            self.userData.append(mobil_num)
+            self.userData.append(email)
+
+
+
+
+
+            
+        }
+        case .Failure(let error):
+            print(error)
+            
+            }
+            self.dataTableView.reloadData()
+
+        }
+
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        getDataFromServer()
-//        print("\(userData)")
+        getDataFromServer()
+
 
         
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -69,31 +77,30 @@ class MyOrderTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
+//    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return 0
+//    }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return self.userData.count
-
+        return userData.count
+        
     }
 
     
+
+    
+    @IBOutlet weak var textLabel: UILabel!
     
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+        
+  let cell = tableView.dequeueReusableCellWithIdentifier("Cell",forIndexPath: indexPath)
        
+        cell.textLabel?.text = userData[indexPath.row]
         
-//        UserDataLabel.text = userData[indexPath.row]
-        
-
-    
-        
-    
-        // Configure the cell...
+        print(" \(self.userData)")
 
         return cell
     }
@@ -145,3 +152,6 @@ class MyOrderTableViewController: UITableViewController {
     */
 
 }
+
+
+

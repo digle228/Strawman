@@ -9,26 +9,37 @@
 import UIKit
 
 class MyDataViewController: UIViewController {
+    
+    
+    
+        let url = NSURL (string: "http://139.162.37.39/api/")
+        
+////        let urlRequest = NSURLRequest(URL: url!, cachePolicy:
+//            NSURLRequestCachePolicy.ReturnCacheDataElseLoad, timeoutInterval: 30)
+//        
+//        
+//        let task = NSURLSession.sharedSession().dataTaskWithRequest(urlRequest) { (data:NSData?,
+//            res:NSURLResponse?, err:NSError?) -> Void in
+//            
+//            if let data = data {
+//                do {
+//                    let dic = try NSJSONSerialization.JSONObjectWithData(data, options:
+//                        NSJSONReadingOptions.MutableContainers) as! NSDictionary
+//                    let array = dic["results"] as! NSArray
+//                    for appDic in array {
+//                        print("trackName \(appDic["trackName"])")
+//                    }
+//                } catch {
+//                }
+//            }}
+//        
+//
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let url = NSURL(string: "https://itunes.apple.com/search?term=apple&media=software")
-        let task = NSURLSession.sharedSession().dataTaskWithURL(url!) { (data:NSData?,
-            res:NSURLResponse?, err:NSError?) -> Void in
-            if let data = data {
-            do {
-            let dic = try NSJSONSerialization.JSONObjectWithData(data, options:
-            NSJSONReadingOptions.MutableContainers) as! NSDictionary
-            let array = dic["results"] as! NSArray
-            for appDic in array {
-            print("trackName \(appDic["trackName"])")
             }
-        } catch {
-            } }
-        }
-        task.resume()
-    }
         
         
     override func didReceiveMemoryWarning() {

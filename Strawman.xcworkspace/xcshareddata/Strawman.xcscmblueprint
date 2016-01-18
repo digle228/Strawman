@@ -1,16 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AF41B72124CB5E758B071CCFDC680A57F5E9F4FB",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "33A5246BF9FBD1513243DFEA19FB41CEDD598BBD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "33A5246BF9FBD1513243DFEA19FB41CEDD598BBD" : 0,
     "0B9D1296A0337EF7C28C3F9C1D4696276D5156E7" : 0,
-    "AF41B72124CB5E758B071CCFDC680A57F5E9F4FB" : 0
+    "455E02B5374BEE36061DCEF05B7C96CD96DD7AD6" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "52240912-CF9B-4622-99E0-AC4069F773D5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "33A5246BF9FBD1513243DFEA19FB41CEDD598BBD" : "Strawman-master\/",
     "0B9D1296A0337EF7C28C3F9C1D4696276D5156E7" : "",
-    "AF41B72124CB5E758B071CCFDC680A57F5E9F4FB" : "Strawman\/"
+    "455E02B5374BEE36061DCEF05B7C96CD96DD7AD6" : "Strawman\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Strawman",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -22,9 +24,14 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B9D1296A0337EF7C28C3F9C1D4696276D5156E7"
     },
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/digle228\/Strawman3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "33A5246BF9FBD1513243DFEA19FB41CEDD598BBD"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/digle228\/Strawman.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AF41B72124CB5E758B071CCFDC680A57F5E9F4FB"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "455E02B5374BEE36061DCEF05B7C96CD96DD7AD6"
     }
   ]
 }

@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91E1BF281C377CBB00D15B41"
                BuildableName = "Strawman.app"
-               BlueprintName = "vagetableSale"
+               BlueprintName = "vegetableSale"
                ReferencedContainer = "container:Strawman.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,7 +34,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91E1BF281C377CBB00D15B41"
             BuildableName = "Strawman.app"
-            BlueprintName = "vagetableSale"
+            BlueprintName = "vegetableSale"
             ReferencedContainer = "container:Strawman.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -57,7 +57,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91E1BF281C377CBB00D15B41"
             BuildableName = "Strawman.app"
-            BlueprintName = "vagetableSale"
+            BlueprintName = "vegetableSale"
             ReferencedContainer = "container:Strawman.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -76,7 +76,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91E1BF281C377CBB00D15B41"
             BuildableName = "Strawman.app"
-            BlueprintName = "vagetableSale"
+            BlueprintName = "vegetableSale"
             ReferencedContainer = "container:Strawman.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

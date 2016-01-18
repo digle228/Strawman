@@ -34,81 +34,24 @@
 		91E1BF321C377CBB00D15B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E1BF301C377CBB00D15B41 /* Main.storyboard */; };
 		91E1BF341C377CBB00D15B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E1BF331C377CBB00D15B41 /* Assets.xcassets */; };
 		91E1BF371C377CBB00D15B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E1BF351C377CBB00D15B41 /* LaunchScreen.storyboard */; };
+		91E59BD01C4B725300E97F73 /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 91E59BCF1C4B725300E97F73 /* Json.json */; };
+		91E59C041C4BBC1F00E97F73 /* parse-library-1.12.0 in Resources */ = {isa = PBXBuildFile; fileRef = 91E59C031C4BBC1F00E97F73 /* parse-library-1.12.0 */; };
+		91E59C071C4BBCBB00E97F73 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C051C4BBCBB00E97F73 /* Bolts.framework */; };
+		91E59C081C4BBCBB00E97F73 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C061C4BBCBB00E97F73 /* Parse.framework */; };
+		91E59C0A1C4BBF0700E97F73 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C091C4BBF0700E97F73 /* AudioToolbox.framework */; };
+		91E59C0C1C4BBF1900E97F73 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C0B1C4BBF1900E97F73 /* CFNetwork.framework */; };
+		91E59C0E1C4BBF2300E97F73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C0D1C4BBF2300E97F73 /* CoreGraphics.framework */; };
+		91E59C101C4BBF2C00E97F73 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C0F1C4BBF2C00E97F73 /* CoreLocation.framework */; };
+		91E59C121C4BBF3500E97F73 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C111C4BBF3500E97F73 /* QuartzCore.framework */; };
+		91E59C141C4BBF3E00E97F73 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C131C4BBF3E00E97F73 /* Security.framework */; };
+		91E59C161C4BBF4500E97F73 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C151C4BBF4500E97F73 /* StoreKit.framework */; };
+		91E59C181C4BBF4E00E97F73 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C171C4BBF4E00E97F73 /* SystemConfiguration.framework */; };
+		91E59C1A1C4BBF5D00E97F73 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C191C4BBF5D00E97F73 /* libz.tbd */; };
+		91E59C1C1C4BBF6900E97F73 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C1B1C4BBF6900E97F73 /* libsqlite3.tbd */; };
+		91E59C1F1C4BEBE500E97F73 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C1D1C4BEBE500E97F73 /* Bolts.framework */; };
+		91E59C201C4BEBE500E97F73 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E59C1E1C4BEBE500E97F73 /* Parse.framework */; };
 		CF1545AB372910D967A26A60 /* Pods_vagetableSale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C4C8A5CD4F74564D1CD322 /* Pods_vagetableSale.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		91D8171E1C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 295F2547842B2A9739A44C1BC5CC99FA;
-			remoteInfo = Alamofire;
-		};
-		91D817201C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7CD3AC3A26BC32BB29B95D2F80A759C9;
-			remoteInfo = Bolts;
-		};
-		91D817221C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D8E3000BE01D88CFB2874834B778D692;
-			remoteInfo = FBSDKCoreKit;
-		};
-		91D817241C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4361D116F287CD6234D9F0138295F327;
-			remoteInfo = FBSDKLoginKit;
-		};
-		91D817261C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 47D8F46FFAE3AA0F49F6D252F43841EA;
-			remoteInfo = FBSDKShareKit;
-		};
-		91D817281C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A1D10DB0396AAA0CB5B11E1B341A8991;
-			remoteInfo = Parse;
-		};
-		91D8172A1C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B4C7A86CD1861B9B22121DCE8B5D8330;
-			remoteInfo = "Pods-vagetableSale";
-		};
-		91D8172C1C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FDFBBDC482B095AD0BB32843CE76A86B;
-			remoteInfo = SVProgressHUD;
-		};
-		91D8172E1C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F8CE17F29698654876E0B23661C7E64;
-			remoteInfo = SwiftyJSON;
-		};
-		91D817301C4A2B7F00A06D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 97471C541F82BCB2122B6ABAC8587613;
-			remoteInfo = YYWebImage;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		26A9724A3E6AAB56215AB04E /* Pods-vagetableSale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vagetableSale.release.xcconfig"; path = "Pods/Target Support Files/Pods-vagetableSale/Pods-vagetableSale.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +75,6 @@
 		91BF38A51C469839002D43A9 /* BuyStep1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuyStep1ViewController.swift; path = ../BuyStep1ViewController.swift; sourceTree = "<group>"; };
 		91D4BF241C42939700A04A4E /* CookMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CookMovieViewController.swift; path = ../CookMovieViewController.swift; sourceTree = "<group>"; };
 		91D4BF261C4299AD00A04A4E /* ForCookNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForCookNavController.swift; path = ../ForCookNavController.swift; sourceTree = "<group>"; };
-		91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		91D817381C4A312900A06D06 /* MyOrderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderTableViewController.swift; sourceTree = "<group>"; };
 		91D8173A1C4A4B7400A06D06 /* MyDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDataViewController.swift; sourceTree = "<group>"; };
 		91E0AB291C46871600D61A5A /* F-BLoginViewController-old.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "F-BLoginViewController-old.swift"; sourceTree = "<group>"; };
@@ -143,6 +85,22 @@
 		91E1BF331C377CBB00D15B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E1BF361C377CBB00D15B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91E1BF381C377CBB00D15B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E59BCF1C4B725300E97F73 /* Json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Json.json; sourceTree = "<group>"; };
+		91E59C031C4BBC1F00E97F73 /* parse-library-1.12.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "parse-library-1.12.0"; sourceTree = "<group>"; };
+		91E59C051C4BBCBB00E97F73 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "vagetableSale/parse-library-1.12.0/Bolts.framework"; sourceTree = "<group>"; };
+		91E59C061C4BBCBB00E97F73 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "vagetableSale/parse-library-1.12.0/Parse.framework"; sourceTree = "<group>"; };
+		91E59C091C4BBF0700E97F73 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		91E59C0B1C4BBF1900E97F73 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		91E59C0D1C4BBF2300E97F73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91E59C0F1C4BBF2C00E97F73 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		91E59C111C4BBF3500E97F73 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		91E59C131C4BBF3E00E97F73 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		91E59C151C4BBF4500E97F73 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		91E59C171C4BBF4E00E97F73 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		91E59C191C4BBF5D00E97F73 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		91E59C1B1C4BBF6900E97F73 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		91E59C1D1C4BEBE500E97F73 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "vagetableSale/parse-library-1.12.0/Bolts.framework"; sourceTree = "<group>"; };
+		91E59C1E1C4BEBE500E97F73 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "vagetableSale/parse-library-1.12.0/Parse.framework"; sourceTree = "<group>"; };
 		B1C4C8A5CD4F74564D1CD322 /* Pods_vagetableSale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vagetableSale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -151,6 +109,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E59C1F1C4BEBE500E97F73 /* Bolts.framework in Frameworks */,
+				91E59C1C1C4BBF6900E97F73 /* libsqlite3.tbd in Frameworks */,
+				91E59C1A1C4BBF5D00E97F73 /* libz.tbd in Frameworks */,
+				91E59C181C4BBF4E00E97F73 /* SystemConfiguration.framework in Frameworks */,
+				91E59C161C4BBF4500E97F73 /* StoreKit.framework in Frameworks */,
+				91E59C141C4BBF3E00E97F73 /* Security.framework in Frameworks */,
+				91E59C201C4BEBE500E97F73 /* Parse.framework in Frameworks */,
+				91E59C121C4BBF3500E97F73 /* QuartzCore.framework in Frameworks */,
+				91E59C101C4BBF2C00E97F73 /* CoreLocation.framework in Frameworks */,
+				91E59C0E1C4BBF2300E97F73 /* CoreGraphics.framework in Frameworks */,
+				91E59C0C1C4BBF1900E97F73 /* CFNetwork.framework in Frameworks */,
+				91E59C0A1C4BBF0700E97F73 /* AudioToolbox.framework in Frameworks */,
+				91E59C071C4BBCBB00E97F73 /* Bolts.framework in Frameworks */,
+				91E59C081C4BBCBB00E97F73 /* Parse.framework in Frameworks */,
 				91030B441C48C23200DD11E5 /* MapKit.framework in Frameworks */,
 				CF1545AB372910D967A26A60 /* Pods_vagetableSale.framework in Frameworks */,
 			);
@@ -162,6 +134,20 @@
 		36AB6A5D66BAF2C9B31D6581 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				91E59C1B1C4BBF6900E97F73 /* libsqlite3.tbd */,
+				91E59C191C4BBF5D00E97F73 /* libz.tbd */,
+				91E59C1D1C4BEBE500E97F73 /* Bolts.framework */,
+				91E59C1E1C4BEBE500E97F73 /* Parse.framework */,
+				91E59C171C4BBF4E00E97F73 /* SystemConfiguration.framework */,
+				91E59C151C4BBF4500E97F73 /* StoreKit.framework */,
+				91E59C131C4BBF3E00E97F73 /* Security.framework */,
+				91E59C111C4BBF3500E97F73 /* QuartzCore.framework */,
+				91E59C0F1C4BBF2C00E97F73 /* CoreLocation.framework */,
+				91E59C0D1C4BBF2300E97F73 /* CoreGraphics.framework */,
+				91E59C0B1C4BBF1900E97F73 /* CFNetwork.framework */,
+				91E59C091C4BBF0700E97F73 /* AudioToolbox.framework */,
+				91E59C051C4BBCBB00E97F73 /* Bolts.framework */,
+				91E59C061C4BBCBB00E97F73 /* Parse.framework */,
 				91030B431C48C23200DD11E5 /* MapKit.framework */,
 				B1C4C8A5CD4F74564D1CD322 /* Pods_vagetableSale.framework */,
 			);
@@ -196,6 +182,7 @@
 				91D817381C4A312900A06D06 /* MyOrderTableViewController.swift */,
 				91D8173A1C4A4B7400A06D06 /* MyDataViewController.swift */,
 				911644201C42415C00F9777F /* Data */,
+				91E59BCF1C4B725300E97F73 /* Json.json */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -220,27 +207,9 @@
 			name = NoUse;
 			sourceTree = "<group>";
 		};
-		91D817121C4A2B7E00A06D06 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				91D8171F1C4A2B7F00A06D06 /* Alamofire.framework */,
-				91D817211C4A2B7F00A06D06 /* Bolts.framework */,
-				91D817231C4A2B7F00A06D06 /* FBSDKCoreKit.framework */,
-				91D817251C4A2B7F00A06D06 /* FBSDKLoginKit.framework */,
-				91D817271C4A2B7F00A06D06 /* FBSDKShareKit.framework */,
-				91D817291C4A2B7F00A06D06 /* Parse.framework */,
-				91D8172B1C4A2B7F00A06D06 /* Pods_vagetableSale.framework */,
-				91D8172D1C4A2B7F00A06D06 /* SVProgressHUD.framework */,
-				91D8172F1C4A2B7F00A06D06 /* SwiftyJSON.framework */,
-				91D817311C4A2B7F00A06D06 /* YYWebImage.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		91E1BF201C377CBB00D15B41 = {
 			isa = PBXGroup;
 			children = (
-				91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */,
 				91E1BF2B1C377CBB00D15B41 /* Strawman */,
 				91E1BF2A1C377CBB00D15B41 /* Products */,
 				55DC0E67D408CB2DFF649D39 /* Pods */,
@@ -259,6 +228,7 @@
 		91E1BF2B1C377CBB00D15B41 /* Strawman */ = {
 			isa = PBXGroup;
 			children = (
+				91E59C031C4BBC1F00E97F73 /* parse-library-1.12.0 */,
 				91E1BF301C377CBB00D15B41 /* Main.storyboard */,
 				91E1BF2C1C377CBB00D15B41 /* AppDelegate.swift */,
 				91087E9B1C3F8A8100E4D6B4 /* ViewController */,
@@ -275,9 +245,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91E1BF281C377CBB00D15B41 /* vagetableSale */ = {
+		91E1BF281C377CBB00D15B41 /* vegetableSale */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91E1BF3B1C377CBB00D15B41 /* Build configuration list for PBXNativeTarget "vagetableSale" */;
+			buildConfigurationList = 91E1BF3B1C377CBB00D15B41 /* Build configuration list for PBXNativeTarget "vegetableSale" */;
 			buildPhases = (
 				30A2321DFA8E2EC3829A805D /* Check Pods Manifest.lock */,
 				91E1BF251C377CBB00D15B41 /* Sources */,
@@ -290,7 +260,7 @@
 			);
 			dependencies = (
 			);
-			name = vagetableSale;
+			name = vegetableSale;
 			productName = vagetableSale;
 			productReference = 91E1BF291C377CBB00D15B41 /* Strawman.app */;
 			productType = "com.apple.product-type.application";
@@ -307,9 +277,12 @@
 				TargetAttributes = {
 					91E1BF281C377CBB00D15B41 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = PKCQ6CD2AP;
+						DevelopmentTeam = 8H7X36TF25;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
 								enabled = 1;
 							};
 						};
@@ -327,91 +300,12 @@
 			mainGroup = 91E1BF201C377CBB00D15B41;
 			productRefGroup = 91E1BF2A1C377CBB00D15B41 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 91D817121C4A2B7E00A06D06 /* Products */;
-					ProjectRef = 91D817111C4A2B7E00A06D06 /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				91E1BF281C377CBB00D15B41 /* vagetableSale */,
+				91E1BF281C377CBB00D15B41 /* vegetableSale */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		91D8171F1C4A2B7F00A06D06 /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 91D8171E1C4A2B7F00A06D06 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91D817211C4A2B7F00A06D06 /* Bolts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Bolts.framework;
-			remoteRef = 91D817201C4A2B7F00A06D06 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91D817231C4A2B7F00A06D06 /* FBSDKCoreKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FBSDKCoreKit.framework;
-			remoteRef = 91D817221C4A2B7F00A06D06 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91D817251C4A2B7F00A06D06 /* FBSDKLoginKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FBSDKLoginKit.framework;
-			remoteRef = 91D817241C4A2B7F00A06D06 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91D817271C4A2B7F00A06D06 /* FBSDKShareKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FBSDKShareKit.framework;
-			remoteRef = 91D817261C4A2B7F00A06D06 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91D817291C4A2B7F00A06D06 /* Parse.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Parse.framework;
-			remoteRef = 91D817281C4A2B7F00A06D06 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91D8172B1C4A2B7F00A06D06 /* Pods_vagetableSale.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_vagetableSale.framework;
-			remoteRef = 91D8172A1C4A2B7F00A06D06 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91D8172D1C4A2B7F00A06D06 /* SVProgressHUD.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SVProgressHUD.framework;
-			remoteRef = 91D8172C1C4A2B7F00A06D06 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91D8172F1C4A2B7F00A06D06 /* SwiftyJSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 91D8172E1C4A2B7F00A06D06 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91D817311C4A2B7F00A06D06 /* YYWebImage.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = YYWebImage.framework;
-			remoteRef = 91D817301C4A2B7F00A06D06 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		91E1BF271C377CBB00D15B41 /* Resources */ = {
@@ -419,7 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				91E1BF371C377CBB00D15B41 /* LaunchScreen.storyboard in Resources */,
+				91E59BD01C4B725300E97F73 /* Json.json in Resources */,
 				91087E4A1C3DF92200E4D6B4 /* Images.xcassets in Resources */,
+				91E59C041C4BBC1F00E97F73 /* parse-library-1.12.0 in Resources */,
 				91E1BF341C377CBB00D15B41 /* Assets.xcassets in Resources */,
 				9116441F1C422A1B00F9777F /* CookTableViewCell.xib in Resources */,
 				91E1BF321C377CBB00D15B41 /* Main.storyboard in Resources */,
@@ -616,9 +512,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vagetableSale/parse-library-1.12.0",
+				);
 				INFOPLIST_FILE = vagetableSale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Strawman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphacamp.Strawman;
 				PRODUCT_NAME = Strawman;
 				PROVISIONING_PROFILE = "";
 			};
@@ -632,9 +532,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vagetableSale/parse-library-1.12.0",
+				);
 				INFOPLIST_FILE = vagetableSale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Strawman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphacamp.Strawman;
 				PRODUCT_NAME = Strawman;
 				PROVISIONING_PROFILE = "";
 			};
@@ -652,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91E1BF3B1C377CBB00D15B41 /* Build configuration list for PBXNativeTarget "vagetableSale" */ = {
+		91E1BF3B1C377CBB00D15B41 /* Build configuration list for PBXNativeTarget "vegetableSale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91E1BF3C1C377CBB00D15B41 /* Debug */,

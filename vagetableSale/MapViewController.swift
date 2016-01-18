@@ -48,7 +48,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         }
         print("\(userLocation.location?.coordinate)")
         
-
         
         let region = MKCoordinateRegionMakeWithDistance(userLocation.location! .coordinate, 1000, 1000)
         mapView.setRegion(region, animated: true)
@@ -59,6 +58,14 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var notification:UILocalNotification = UILocalNotification()
+        notification.alertBody = "熱門訊息通知!"
+        notification.fireDate = NSDate(timeIntervalSinceNow: 1)
+        UIApplication.sharedApplication().scheduleLocalNotification(notification)
+
+        
+        
         
         self.locationManager.requestWhenInUseAuthorization()
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
